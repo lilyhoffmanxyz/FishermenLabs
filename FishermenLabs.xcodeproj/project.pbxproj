@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		17296CEF1FC65D67006163F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296CEE1FC65D67006163F6 /* AppDelegate.swift */; };
-		17296CF11FC65D67006163F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296CF01FC65D67006163F6 /* ViewController.swift */; };
 		17296CF41FC65D67006163F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17296CF21FC65D67006163F6 /* Main.storyboard */; };
 		17296CF61FC65D67006163F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17296CF51FC65D67006163F6 /* Assets.xcassets */; };
 		17296CF91FC65D67006163F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17296CF71FC65D67006163F6 /* LaunchScreen.storyboard */; };
+		17296D011FC65D7D006163F6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296D001FC65D7D006163F6 /* UserData.swift */; };
+		17296D041FC65DC3006163F6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296D031FC65DC3006163F6 /* LoginVC.swift */; };
+		17296D081FC65DE7006163F6 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296D071FC65DE7006163F6 /* CreateAccountVC.swift */; };
+		17296D0A1FC65E15006163F6 /* RandomUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17296D091FC65E15006163F6 /* RandomUsersVC.swift */; };
+		173B8E121FC76C7500FA9480 /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B8E111FC76C7500FA9480 /* UserDetailsVC.swift */; };
+		173B8E141FC7848600FA9480 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B8E131FC7848600FA9480 /* CircleImage.swift */; };
+		173B8E161FC784C300FA9480 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B8E151FC784C300FA9480 /* RoundedButton.swift */; };
+		173B8E181FC784DC00FA9480 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B8E171FC784DC00FA9480 /* RoundedView.swift */; };
+		1763E0F01FC795BE00AFDD72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1763E0EF1FC795BE00AFDD72 /* GoogleService-Info.plist */; };
+		1763E0F21FC8A5CD00AFDD72 /* SavedUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E0F11FC8A5CD00AFDD72 /* SavedUsersVC.swift */; };
+		1763E0F41FC8A83500AFDD72 /* GlobalActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E0F31FC8A83500AFDD72 /* GlobalActions.swift */; };
+		17D1FD561FC667AC00520FC6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1FD551FC667AC00520FC6 /* DataService.swift */; };
+		17D1FD581FC667B300520FC6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1FD571FC667B300520FC6 /* AuthService.swift */; };
+		17D1FD5B1FC6709400520FC6 /* RoundedUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1FD5A1FC6709400520FC6 /* RoundedUITextField.swift */; };
+		5E34AB2D2E8DDD96AB9BFB99 /* Pods_FishermenLabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B005FA70C0A9B6A0A95739D5 /* Pods_FishermenLabs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17296CEB1FC65D67006163F6 /* FishermenLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishermenLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17296CEE1FC65D67006163F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17296CF01FC65D67006163F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17296CF31FC65D67006163F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17296CF51FC65D67006163F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17296CF81FC65D67006163F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17296CFA1FC65D67006163F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17296D001FC65D7D006163F6 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		17296D031FC65DC3006163F6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		17296D071FC65DE7006163F6 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		17296D091FC65E15006163F6 /* RandomUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersVC.swift; sourceTree = "<group>"; };
+		173B8E111FC76C7500FA9480 /* UserDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
+		173B8E131FC7848600FA9480 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		173B8E151FC784C300FA9480 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		173B8E171FC784DC00FA9480 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		1763E0EF1FC795BE00AFDD72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1763E0F11FC8A5CD00AFDD72 /* SavedUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedUsersVC.swift; sourceTree = "<group>"; };
+		1763E0F31FC8A83500AFDD72 /* GlobalActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActions.swift; sourceTree = "<group>"; };
+		17D1FD551FC667AC00520FC6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		17D1FD571FC667B300520FC6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		17D1FD5A1FC6709400520FC6 /* RoundedUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUITextField.swift; sourceTree = "<group>"; };
+		B005FA70C0A9B6A0A95739D5 /* Pods_FishermenLabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishermenLabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B306970B4458EFDFE655B157 /* Pods-FishermenLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishermenLabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishermenLabs/Pods-FishermenLabs.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5A6DB67AFD2AF6E5014FED /* Pods-FishermenLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishermenLabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishermenLabs/Pods-FishermenLabs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E34AB2D2E8DDD96AB9BFB99 /* Pods_FishermenLabs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				17296CED1FC65D67006163F6 /* FishermenLabs */,
 				17296CEC1FC65D67006163F6 /* Products */,
+				838BB66A40393CB0BE58CF32 /* Pods */,
+				B1EFF63760E4BA013B513DAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +88,75 @@
 			isa = PBXGroup;
 			children = (
 				17296CEE1FC65D67006163F6 /* AppDelegate.swift */,
-				17296CF01FC65D67006163F6 /* ViewController.swift */,
 				17296CF21FC65D67006163F6 /* Main.storyboard */,
+				17D1FD5C1FC6709800520FC6 /* View */,
+				17D1FD591FC667B700520FC6 /* Services */,
 				17296CF51FC65D67006163F6 /* Assets.xcassets */,
 				17296CF71FC65D67006163F6 /* LaunchScreen.storyboard */,
 				17296CFA1FC65D67006163F6 /* Info.plist */,
+				1763E0EF1FC795BE00AFDD72 /* GoogleService-Info.plist */,
+				17296D021FC65D83006163F6 /* Model */,
+				17296D0B1FC65E20006163F6 /* Controller */,
 			);
 			path = FishermenLabs;
+			sourceTree = "<group>";
+		};
+		17296D021FC65D83006163F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17296D001FC65D7D006163F6 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17296D0B1FC65E20006163F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1763E0F11FC8A5CD00AFDD72 /* SavedUsersVC.swift */,
+				173B8E111FC76C7500FA9480 /* UserDetailsVC.swift */,
+				17296D031FC65DC3006163F6 /* LoginVC.swift */,
+				17296D071FC65DE7006163F6 /* CreateAccountVC.swift */,
+				17296D091FC65E15006163F6 /* RandomUsersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17D1FD591FC667B700520FC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				17D1FD551FC667AC00520FC6 /* DataService.swift */,
+				17D1FD571FC667B300520FC6 /* AuthService.swift */,
+				1763E0F31FC8A83500AFDD72 /* GlobalActions.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		17D1FD5C1FC6709800520FC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				173B8E131FC7848600FA9480 /* CircleImage.swift */,
+				173B8E151FC784C300FA9480 /* RoundedButton.swift */,
+				173B8E171FC784DC00FA9480 /* RoundedView.swift */,
+				17D1FD5A1FC6709400520FC6 /* RoundedUITextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		838BB66A40393CB0BE58CF32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B306970B4458EFDFE655B157 /* Pods-FishermenLabs.debug.xcconfig */,
+				EA5A6DB67AFD2AF6E5014FED /* Pods-FishermenLabs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1EFF63760E4BA013B513DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B005FA70C0A9B6A0A95739D5 /* Pods_FishermenLabs.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17296CFD1FC65D67006163F6 /* Build configuration list for PBXNativeTarget "FishermenLabs" */;
 			buildPhases = (
+				EA24FF42ED620D556E254EB9 /* [CP] Check Pods Manifest.lock */,
 				17296CE71FC65D67006163F6 /* Sources */,
 				17296CE81FC65D67006163F6 /* Frameworks */,
 				17296CE91FC65D67006163F6 /* Resources */,
+				F3DF84112543A6F905E698D4 /* [CP] Embed Pods Frameworks */,
+				01BCA4102EAC04689388EC63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17296CF91FC65D67006163F6 /* LaunchScreen.storyboard in Resources */,
+				1763E0F01FC795BE00AFDD72 /* GoogleService-Info.plist in Resources */,
 				17296CF61FC65D67006163F6 /* Assets.xcassets in Resources */,
 				17296CF41FC65D67006163F6 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +230,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01BCA4102EAC04689388EC63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishermenLabs/Pods-FishermenLabs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA24FF42ED620D556E254EB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DF84112543A6F905E698D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishermenLabs/Pods-FishermenLabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17296CE71FC65D67006163F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17296CF11FC65D67006163F6 /* ViewController.swift in Sources */,
+				17296D0A1FC65E15006163F6 /* RandomUsersVC.swift in Sources */,
+				17296D011FC65D7D006163F6 /* UserData.swift in Sources */,
+				17296D041FC65DC3006163F6 /* LoginVC.swift in Sources */,
+				17D1FD5B1FC6709400520FC6 /* RoundedUITextField.swift in Sources */,
+				17D1FD561FC667AC00520FC6 /* DataService.swift in Sources */,
+				17296D081FC65DE7006163F6 /* CreateAccountVC.swift in Sources */,
+				1763E0F21FC8A5CD00AFDD72 /* SavedUsersVC.swift in Sources */,
+				173B8E161FC784C300FA9480 /* RoundedButton.swift in Sources */,
+				173B8E121FC76C7500FA9480 /* UserDetailsVC.swift in Sources */,
+				173B8E181FC784DC00FA9480 /* RoundedView.swift in Sources */,
 				17296CEF1FC65D67006163F6 /* AppDelegate.swift in Sources */,
+				1763E0F41FC8A83500AFDD72 /* GlobalActions.swift in Sources */,
+				17D1FD581FC667B300520FC6 /* AuthService.swift in Sources */,
+				173B8E141FC7848600FA9480 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +431,7 @@
 		};
 		17296CFE1FC65D67006163F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B306970B4458EFDFE655B157 /* Pods-FishermenLabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +447,7 @@
 		};
 		17296CFF1FC65D67006163F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5A6DB67AFD2AF6E5014FED /* Pods-FishermenLabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
